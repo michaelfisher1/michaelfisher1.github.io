@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Quester Home - Work in Progress</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="Content\bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Quester</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vault.html">The Vault</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="council.html">Our Team</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Healer Wanted!</h1>
+            <p>After the tragic demise of their previous cleric, the Lucky Four are hoping to find an up-and-coming adventurer to fill the gap. Some previous experience preferred, and a willingness to learn is a must!</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Apply Today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>The White Stag of Tir'lathaal</h1>
+            <p>The fabled White Stag has been seen roaming the forests of Tir'lathaal for the first time in centuries. Who will complete their quest first and claim the glory and spoils of this once-in-a-lifetime quest.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Join the Hunt</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Hot on the Market: The Blazing Blade of Dhul'khan</h1>
+            <p>It slices, it dices, it sets your foes ablaze. Found recently by brave Questers in the Mt. Korvus calderra, this ancient fiery blade is sure to be this year's hot ticket item. Bids and trades currently being taken.</p>
+            <p><a class="btn btn-lg btn-primary" href="vault.html">Browse the Vault</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="Content\Mission.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" alt="Our Mission">
+
+        <h2>Our Mission</h2>
+        <p>At Quester, our mission is to help you find and complete yours. Whether it is slaying the undead horde, plumbing the depths of ancient ruins, or simply gathering rare alchemicals, we at Quester are here to help connect you to those who need your special services.
+         Find quest givers, create quests of your own, connect with allies, and share the spoils of your adventures, all from one place. Create your Quester account today and set your sights on your next adventure!</p>
+        <p><a class="btn btn-secondary" href="#">Get Started &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="Content\Council.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" alt="The Council">
+
+        <h2>Our People</h2>
+        <p>The Quester Council is made up of some of the bravest heroes and wisest mages in all the land, and we have decided to share our vast experience and talents with you all, from the newest, greenest hopefull to the grizzled veterans looking for the next big score. The team at
+         Quester works day and night, across multiple dimensions, and even is known for bending reality to provide you with the best experience possible.</p>
+        <p><a class="btn btn-secondary" href="Council.jpg">Meet the Team &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="Content\Promise.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" alt="Handshake">
+
+        <h2>Our Promise</h2>
+        <p>At Quester, results are important. In fact, results are everything. Whether you are posting a quest to get completed, heroically charging into danger to complete a quest of your own, or buying, trading, or selling the spoils of a
+         hard-fought adventure, you expect results. At Quester, we promise to do everything in our power (and in the power of our eldritch benefactors) to make sure your goals are completed, your hard work is paid for, and your
+        transactions are reliable and discrete. For more information or to request a copy of our signed blood-pact, see our privacy policy and Quester Guarantee.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Gather Your Team | <span class="text-muted">Adventure Awaits</span></h2>
+        <p class="lead">At Quester, a network of Questgivers and fellow adventurers are at your fingertips. Team up with like-minded heroes from across the realm to complete challenging and dangerous assignments given by our vetted Quester associates.
+         Never again will you need to wander the lands in search of glory and adventure, simply create your Quester profile and let the quests come to you! Step out of the tavern and into your new life on your road to glory!</p>
+      </div>
+      <div class="col-md-5">
+        <img src="Content\Adventuring Party.jpg" width="500" height="500" alt="Adventuring Group">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Rise to the Top | <span class="text-muted">Glory is Yours!</span></h2>
+        <p class="lead">As you continue your Quester career, you'll earn reputation and rating to unlock higher tier rewards and opportunities at Quester. Exclusive items, guaranteed placement into high visibility quests and
+         opportunities, and the adoration of the masses can be yours.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="Content\DnD Tavern.jpg" width="500" height="500" alt="Tavern Celebration">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Revel in Your Spoils | <span class="text-muted">Glittering Gold</span></h2>
+        <p class="lead">Throughout your Quester career, you'll inevitably come across many kinds of loot, treasure, rewards, and other spoils. What is not useful to you can surely be useful (and valuable) to others. In Quester's Vault, we have
+         consolidated a veritable horde of treasure from other Quester associates from the far reaches of the land. In the Vault, you can auction off unwanted items and place bids on items you want or require. The Vault is managed by
+         our team of Economancers, but driven by the success of all our Quester fellows. Keep a close eye on the Vault, as items change hands quickly and rare and exclusive items commonly rise to the surface.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="Content\Treasure.jpg" width="500" height="500" alt="Treasure Horde">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 533 P.C. - 555 P.C. (Post Convergence) Quester, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="Content\bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
